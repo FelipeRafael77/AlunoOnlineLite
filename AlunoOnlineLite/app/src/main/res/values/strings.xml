@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Aluno Online Lite</string>
+    <string name="action_settings">Settings</string>
+    <string name="enter">Entrar</string>
+    <string name="password">Senha</string>
+    <string name="email_address">Email</string>
+</resources>
