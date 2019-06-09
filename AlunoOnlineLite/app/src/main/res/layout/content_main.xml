@@ -13,7 +13,7 @@
         android:id="@+id/imagem"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:src="@drawable/unipar"
+        android:src="@mipmap/ic_unipar_logo"
         android:layout_marginTop="20dp">
 
     </ImageView>
@@ -56,13 +56,13 @@
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@mipmap/ic_google_lite"
+            android:src="@mipmap/ic_google_lite_2"
             android:layout_weight="1"/>
 
      <Button
          android:layout_width="wrap_content"
          android:layout_height="match_parent"
-         android:text="@string/enter"
+         android:text="@string/button1"
          android:layout_weight="1"/>
     </LinearLayout>
 

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Activity2"
+    tools:showIn="@layout/activity2">
+
+    <ImageView
+        android:id="@+id/imagem"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/ic_unipar_logo">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/campotexto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@+id/imagem"
+        android:text="@string/option" />
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/caixa1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/campotexto"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="85dp"
+        android:text="@string/curso1"
+        android:textSize="15dp" />
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/caixa2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/caixa1"
+        android:layout_marginLeft="85dp"
+        android:text="@string/curso2"
+        android:textSize="15dp"/>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/caixa1"
+    android:orientation="horizontal"
+    android:layout_marginBottom="48dp">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/button2"
+        />
+</LinearLayout>
+
+</RelativeLayout>

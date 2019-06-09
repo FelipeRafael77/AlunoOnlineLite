@@ -1,7 +1,19 @@
 <resources>
     <string name="app_name">Aluno Online LITE</string>
-    <string name="action_settings">Sobre</string>
-    <string name="enter">Entrar</string>
+    <string name="about">Sobre</string>
+    <string name="button1">Entrar</string>
+    <string name="button2">Avançar</string>
     <string name="password">Senha</string>
     <string name="register">RA</string>
+    <string name="option">Escolha seu curso abaixo:</string>
+    <string name="curso1">Sistemas de Informação</string>
+    <string name="curso2">Análise e Desenvolvimento de Sistemas</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_aluno_name">Fulano de Tal</string>
+    <string name="nav_ra">RA: 00123456</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_boleto">Boletos Pendentes</string>
+    <string name="menu_frequency">Frequências</string>
 </resources>
