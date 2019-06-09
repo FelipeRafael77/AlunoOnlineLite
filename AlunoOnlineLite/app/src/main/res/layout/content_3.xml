@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,4 +8,93 @@
     tools:context=".Activity3"
     tools:showIn="@layout/app_bar_3">
 
-</android.support.constraint.ConstraintLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/logocurso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="8dp"
+            android:src="@mipmap/ic_curso" />
+
+        <TextView
+            android:id="@+id/materia1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/logocurso"
+            android:text="@string/materia1"
+            android:textSize="18dp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/notas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/logocurso"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="@string/nota1" />
+
+        <Button
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/notas"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="64dp"
+            android:text="@string/details" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/logocurso2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="8dp"
+            android:src="@mipmap/ic_curso" />
+
+        <TextView
+            android:id="@+id/materia2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/logocurso2"
+            android:text="@string/materia2"
+            android:textSize="18dp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/notas2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/logocurso2"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="@string/nota2" />
+
+        <Button
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/notas2"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="64dp"
+            android:text="@string/details" />
+
+
+    </RelativeLayout>
+
+</android.support.design.card.MaterialCardView>
